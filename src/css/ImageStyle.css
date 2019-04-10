@@ -1,0 +1,87 @@
+iFrame .ViewProfileButton {
+  padding: 5px 5px !important !important;
+}
+.gallery_product img {
+  box-shadow: -5px 5px 10px grey;
+  border-radius: 5px;
+}
+.gallery-div {
+  -webkit-flex-direction: column;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+  display: -ms-flexbox;
+  -ms-flex-direction: column;
+  -ms-justify-content: center;
+  -ms-align-items: center;
+  -ms-flex-pack: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-pack: center;
+}
+.gallery-title
+{
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    font-family:Pavanam;
+}
+
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 769px) {
+  .gallery-div {
+    -webkit-flex-direction: column;
+  	-webkit-justify-content: center;
+  	-webkit-align-items: center;
+  	display: -ms-flexbox;
+  	-ms-flex-direction: column;
+  	-ms-justify-content: center;
+  	-ms-align-items: center;
+  	-ms-flex-pack: center;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  	flex-pack: center;
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Pavanam');
+.box-gallery .box-panel {
+  height: calc(100vh - 44px);
+}
+.centered-content {
+  -webkit-flex-direction: column;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	display: -ms-flexbox;
+	-ms-flex-direction: column;
+	-ms-justify-content: center;
+	-ms-align-items: center;
+	-ms-flex-pack: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-pack: center;
+}
+.row-a {
+  height: calc(100vh - 92px);
+  background-image: url('../portfolio/Mobile/HomeMobileBackground.png');
+  background-size: cover;
+  -webkit-flex-direction: column;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	display: -ms-flexbox;
+	-ms-flex-direction: column;
+	-ms-justify-content: center;
+	-ms-align-items: center;
+	-ms-flex-pack: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-pack: center;
+}
+.row-b {
+  height: calc(100vh - 52px);
+  background-image: url('../portfolio/Mobile/MobileAboutBackground.png');
+  background-size: cover;
+  -webkit-flex-direction: column;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	display: -ms-flexbox;
+	-ms-flex-direction: column;
+	-ms-justify-content: center;
+	-ms-align-items: center;
+	-ms-flex-pack: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-pack: center;
+}
+.row-c {
+  height: calc(100vh - 52px);
+  background-image: url('../portfolio/Mobile/MobileServicesBackground.jpg');
+  background-size: cover;
+  -webkit-flex-direction: column;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	display: -ms-flexbox;
+	-ms-flex-direction: column;
+	-ms-justify-content: center;
+	-ms-align-items: center;
+	-ms-flex-pack: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-pack: center;
+}
+.col-a {
+  padding:-40px 0 0 0;
+  background-color: rgba(255,255,255,.8);
+  height: 100%;
+  width: 100%;
+  -webkit-flex-direction: column;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	display: -ms-flexbox;
+	-ms-flex-direction: column;
+	-ms-justify-content: center;
+	-ms-align-items: center;
+	-ms-flex-pack: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-pack: center;
+}
+.col-a div {
+  margin: -40px 0 0 0;
+}
+.col-a h1 {
+  margin: 0;
+  padding: 10px 0 20px 0;
+  color: black;
+  font-family: Pavanam;
+}
+.col-a p {
+  color: black;
+  font-size: 18px;
+  font-family: Pavanam;
+  text-align: justify;
+}
+.call-div {
+  background-color: #026402;
+  border-radius: 15px 15px 0 0;
+  position: absolute;
+  bottom: 40px;
+}
+.call-div h1 {
+  font-size: 20px;
+  padding: 0 16px 5px 16px;
+  color: white;
+  font-family: Pavanam;
+}
+.call-text {
+  color: #3614CC;
+  font-family: Pavanam
+}
+.col-b h1 {
+  width: 100%;
+  text-align: center;;
+  font-size: 30px;
+  padding: 20px 0 20px 0;
+font-family: Pavanam;
+}
+.insta-row {
+  -webkit-flex-direction: column;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	display: -ms-flexbox;
+	-ms-flex-direction: column;
+	-ms-justify-content: center;
+	-ms-align-items: center;
+	-ms-flex-pack: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-pack: center;
+  margin: 15px 0 0 0;
+}
+.instagram-box {
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: #66c066;
+  box-shadow: -10px 10px 3px 0px green;
+
+}
+
+@media screen and (min-width: 500px) {
+  .row-a {
+    background-image: url('../images/image1.png');
+    background-size: cover;
+    height: calc( 100vh - 73px );
+
+  }
+  .row-b {
+    background-image: url('../images/image2.png');
+    background-size: cover;
+    height: calc( 100vh - 73px )
+  }
+  .row-c {
+    background-image: url('../images/image3.png');
+    background-size: cover;
+    height: calc( 100vh - 73px );
+  }
+  .col-a {
+    position: absolute;
+    right: 0;
+    width: 600px;
+    height: calc( 100vh - 72px)
+  }
+  .col-a div{
+    width: 400px;
+  }
+  .col-a h1 {
+    font-size: 40px;
+  }
+  .col-a p {
+    font-size: 17px;
+  }
+  .call-div {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 0px 10px 0 0;
+  }
+
+}
